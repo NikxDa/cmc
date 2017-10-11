@@ -49,7 +49,7 @@ command -v electron >/dev/null 2>&1 || {
 
 # Launch Electron
 echo "Launching Electron..."
-electron src/
+electron .
 
 # Finished
 echo "Done."
